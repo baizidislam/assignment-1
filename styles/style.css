@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.header-container {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+
+
+
+/* main styles */
+
+header {
+  padding: 20px 0;
+  padding-top: 16px;
+
+}
+
+.logo {
+  margin: 16px;
+}
+
+nav {
+  max-width: 1600px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  background: #ffffff;
+  padding: 15px 0;
+}
+.navmenu {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: px;
+  align-items: center;
+}
+
+nav .navmenu a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;
+  margin-left: 20px;
+
+}
+.nav-btn { 
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px 12px 16px;
+    width: 164px;
+    height: 44px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    color: white;
+    background-color: #30B868 ;
+    border: none;
+    line-height: 19px;
+    margin: 24px auto;
+    cursor: pointer;
+ }
+
+ .nav-btn:hover {
+  color: #ffffff;
+  background-color: #001931;
+ }
+
+
+
+/* Hero Image Section Styles */
+
+.hero-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-content {
+ width: 100%;
+ max-width: 1600px;
+ height: 674px;
+ margin: o auto;
+ text-align: center;
+ background:url('../images/herobg.png');
+ background-repeat: no-repeat;
+ padding:100px 120px 134px 120px ;
+ align-items: center;
+ justify-content: center;
+ }
+
+.sec-btn-vault {
+  background-color: #30B868;
+  border: none;
+  padding:16.5px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+}
+
+.sec-btn-vault:hover {
+  color: #ffffff;
+  background-color:rgb(145, 145, 110);
+}
+
+.sec-btn-vault a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+ 
+ 
+.sec-btn-works {
+  background-color: #30b86900;
+  border: 1px solid #ffffff;
+  padding:16.5px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+}
+.sec-btn-works:hover{
+  color: #000000;
+  background-color:rgb(0, 0, 0);
+}
+.sec-btn-works a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.early-access {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 16px;
+    background: #ffffff;
+    color: #009c39;
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.early-access:hover{
+  background-color: #001931;
+}
+
+
+.text-early-access{
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 19px;
+ text-align: center;
+ cursor: pointer;
+}
+
+.hero-heading-1
+{
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 84px;
+  text-align: center;
+  padding-top: 16PX;
+  color: #fff;
+}
+.hero-heading-2 { 
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 84px;
+  text-align: center;
+  padding-top: 16px;
+  color: #12d81f;
+}
+.section-info{
+  width: 770px;
+  padding-top: 16px;
+  font-size: 18px;
+  font-weight: 600px;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+}
+.btm-btn{
+  padding-top: 32px;
+}
