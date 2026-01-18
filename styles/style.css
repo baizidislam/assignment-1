@@ -229,7 +229,7 @@ nav .navmenu a {
   color: white;
   margin: 0 auto;
 }
-.btm-btn{
+.hero-container .btm-btn{
   padding-top: 32px;
 }
 
@@ -335,4 +335,29 @@ nav .navmenu a {
   max-width: 20px;
   height: auto;
   display: block;
+}
+
+
+/* 4th Section Styles */
+
+#cta {
+    margin-top: 20px;
+    margin-bottom: 80px;
+
+}
+
+#cta .cta-container {
+    max-width: 1360px;
+    max-height: 384px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    background-color: #F7F6F2;
+    padding: 80px;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.cta-container .note {
+    padding-top: 16px;
 }
