@@ -88,7 +88,7 @@ nav .navmenu a {
 }
 .nav-btn { 
     font-size: 16px;
-    font-weight: 600;
+    font-weight: semi-bold;
     padding: 12px 16px 12px 16px;
     width: 164px;
     height: 44px;
@@ -140,7 +140,7 @@ nav .navmenu a {
   padding:16.5px 16px;
   border-radius: 4px;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: semi-bold;
   align-items: center;
   gap: 16px;
   cursor: pointer;
@@ -163,7 +163,7 @@ nav .navmenu a {
   padding:15.5px 15px;
   border-radius: 4px;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: semi-bold;
   align-items: center;
   gap: 16px;
   cursor: pointer;
