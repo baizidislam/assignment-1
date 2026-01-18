@@ -114,13 +114,16 @@ nav .navmenu a {
 /* Hero Image Section Styles */
 
 .hero-container {
+    width: 100%;
     max-width: 1600px;
     margin: 0 auto;
 }
 
 .hero-content {
  width: 100%;
- max-width: 1600px;
+ background-size: cover;
+ background-position: center center;
+
  height: 674px;
  margin: o auto;
  text-align: center;
@@ -157,7 +160,7 @@ nav .navmenu a {
 .sec-btn-works {
   background-color: #30b86900;
   border: 1px solid #ffffff;
-  padding:16.5px 16px;
+  padding:15.5px 15px;
   border-radius: 4px;
   font-size: 16px;
   font-weight: bold;
@@ -274,4 +277,62 @@ nav .navmenu a {
 
 .skills-box {
     padding-top: 10px;
+}
+
+
+/* 3rd Section Styles */
+
+#second-brain {
+    max-width: 1360px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: left;
+    align-items: center;
+    gap: 60px;
+}
+
+#second-brain .second-brain-image {
+    max-width: 600px;
+}
+
+#second-brain .content h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #009c39;
+    margin-bottom: 16px;   
+
+}
+
+#second-brain .content h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #181818;
+    margin-bottom: 16px;   
+}
+
+#second-brain .content p {
+    max-width: 520px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #757575;
+    margin-bottom: 40px;   
+}
+
+
+.inline-item {
+  display: inline-flex;
+  padding-bottom: 16px;
+  align-items: center;
+  gap: 8px; /* space between image and text */
+}
+
+.inline_opsicon {
+  max-width: 20px;
+  height: auto;
+  display: block;
 }
