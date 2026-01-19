@@ -11,15 +11,11 @@
 
 .header-container {
     max-width: 1360px;
+    max-height: 70px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
 
 
 /* Universal Styles */
@@ -40,11 +36,8 @@
     font-size: 16px;
     margin-bottom: 30px;
     color: #757575;
-    line-height: 1.5;
-}
-
-.text-center {
-    text-align: center;
+    font-weight: regular;
+    line-height: 24px;
 }
 
 
@@ -74,7 +67,7 @@ nav {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  gap: px;
+  gap: 10px;
   align-items: center;
 }
 
@@ -219,11 +212,11 @@ nav .navmenu a {
   padding-top: 16px;
   color: #12d81f;
 }
-.section-info{
+.hero-content .section-info {
   width: 770px;
   padding-top: 16px;
   font-size: 18px;
-  font-weight: 600px;
+  font-weight: 400;
   line-height: 24px;
   text-align: center;
   color: white;
@@ -360,4 +353,45 @@ nav .navmenu a {
 
 .cta-container .note {
     padding-top: 16px;
+}
+
+
+/* Footer Styles */
+.footer-container {
+  max-width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 150px;
+  background-color: #001931;
+
+  align-items: center;
+}
+.social{
+  color: #FFFFFF;
+}
+.foot {
+  display: flex;
+  margin-top: 0;
+  padding-bottom: 40px;
+  background-color: #001931;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  max-width: 1360px;
+    margin: 0 auto;
+}
+.foot-logo{
+  padding-top: 30px;
+}
+
+.footer-container p {
+    font-size: 120x;
+    color: #ffffff;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.footer-container .social-icons a {
+    margin-right: 16px;
 }
